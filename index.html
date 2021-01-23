@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" sizes="350x151" href="/logo.png">
+    <title>Hive Stats</title>
+
+  </head>
+  <body>
+    <select name="timeframe" id="time">
+      <option value="nothing">Monthly or All-time?</option>
+      <option value="monthly">Monthly</option>
+      <option value="all">All Time</option>
+    </select>
+
+
+    <select name="game" id="game">
+      <option value="nothing">Select a Game</option>
+      <option value="wars">Treasure Wars</option>
+      <option value="dr">DeathRun</option>
+      <option value="hide">Hide and Seek</option>
+      <option value="sg">Survival Games</option>
+      <option value="murder">Murder Mystery</option>
+      <option value="sky">SkyWars</option>
+    </select>
+
+    <input id="in" placeholder="Enter a username..."></input>
+    <button id = "bu">Go!</button>
+
+    <p id = "helper"></p>
+        <script src="script.js"></script>
+  </body>
+</html>
