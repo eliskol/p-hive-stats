@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@200&display=swap');
+
+input{
+  border:none;
+  border-style: double;
+}
+
+*{
+  font-size:20px;
+  font-family: 'Fraunces', serif;
+}
+
+#helper{
+  color:red;
+}
