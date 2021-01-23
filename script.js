@@ -1,6 +1,8 @@
 let helper = document.getElementById('helper');
 
-document.getElementById('bu').addEventListener("click", function () {
+document.getElementById('bu').addEventListener("click",bruh);
+
+ function bruh() {
 
   let input = document.getElementById('in').value.replace(" ", "%20");
   let time = document.getElementById('time').value;
@@ -50,4 +52,11 @@ if(input !== ""){
     document.body.appendChild(p);
   }
 
-});
+}
+
+window.onkeydown = function(e){
+  if(e.which === 13){
+    bruh();
+    console.log('enter was pressed');
+  }
+}
